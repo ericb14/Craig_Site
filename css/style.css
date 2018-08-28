@@ -76,3 +76,8 @@ div.col-sm-7.name_wrapper {
 .bio {
   padding-left: 2em;
   padding-right: 2em; }
+
+.products {
+  padding: 1em; }
+  .products .product_description {
+    transition-property: all; }

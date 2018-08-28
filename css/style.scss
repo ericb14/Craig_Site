@@ -120,3 +120,26 @@ div.col-sm-7.name_wrapper {
     padding-left : 2em;
     padding-right: 2em;
 }
+
+.products {
+    padding: 1em;
+    // background-color: darkblue;
+    .product_description {
+        // background-color: salmon;
+        transition-property: all;
+    }
+    // .overlay {
+    //     height          : 100%;
+    //     width           : 100%;
+    //     opacity         : 0.8;
+    //     transition      : 0.8s ease;
+    //     transition      : opacity 0.25s ease-in-out;
+    //     background-color: #008CBA;
+    // }
+    // .product_description:hover p:after {
+    //     color     : red;
+    //     text-align: center;
+    //     content   : attr(data-caption);
+    //     transform : scale(1.5);
+    // }
+}
