@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+p {
+  font-family: "Lato", sans-serif;
+  color: #8f9399; }
+
+.navbar img {
+  width: 6em; }
+
+.navbar button {
+  border: none; }
+
+.navbar .nav-item {
+  font-family: "Lato", sans-serif; }
+
+div.col-sm-12.hero {
+  padding: 0;
+  margin: 0; }
+
+div.col-sm-12.hero_inner {
+  margin: 0;
+  padding: 0; }
+
+div.col-sm-7.name_wrapper {
+  margin: 0;
+  padding: 0; }
+
+.modal-content {
+  display: block;
+  border-radius: 5px;
+  border: none;
+  width: 100%; }
+
+.modal-header {
+  display: block;
+  border: none; }
+
+.hero {
+  background-image: url("../images/craig2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%; }
+  .hero .hero_inner {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    background-color: rgba(134, 139, 143, 0.4); }
+    .hero .hero_inner .logo_wrapper .doterra_logo {
+      max-width: 8em; }
+    .hero .hero_inner .logo_wrapper .diversified_logo {
+      max-width: 8em;
+      padding-bottom: 5px; }
+    .hero .hero_inner .logo {
+      width: 2%; }
+  .hero h3 {
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    z-index: 300;
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+    width: 100%;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    margin-bottom: 0; }
+
+.block_div {
+  justify-content: center;
+  padding-top: 5em;
+  padding-bottom: 2em; }
+  .block_div .blocks {
+    margin: 1.3em; }
+    .block_div .blocks img {
+      border-radius: 50%;
+      height: 50%; }
+    .block_div .blocks p {
+      font-size: 1.2em; }
+
+.bio {
+  padding: 2em; }
+
+.products {
+  padding: 1em; }
+  .products .col-md-3 {
+    padding: 0.1em; }
+  .products .product_description {
+    transition-property: all; }
+  .products .description_div {
+    background-color: red;
+    z-index: 500;
+    position: absolute; }
+  .products .items {
+    max-width: 300px;
+    height: 600px; }
