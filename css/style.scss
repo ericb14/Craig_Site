@@ -71,6 +71,18 @@ div.col-sm-7.name_wrapper {
 }
 // --- Modal Style End ---
 
+.hero_wrapper {
+    padding: 0;
+
+    h3 {
+        position : absolute;
+        bottom   : 30%;
+        left     : 10%;
+        color    : white;
+        font-size: 9vw;
+    }
+}
+
 .hero {
     background-repeat: no-repeat;
     background-size  : cover;
@@ -109,11 +121,6 @@ div.col-sm-7.name_wrapper {
         .logo {
             width: 2%;
         }
-    }
-
-    .hero_image {
-        padding: 1.5em;
-        display: block;
     }
 
     h3 {
@@ -174,10 +181,22 @@ div.col-sm-7.name_wrapper {
     }
 
     .items {
-        max-width: 300px;
-        height   : 600px;
-        // background-color: red;
-    }
+        width     : auto;
+        max-height: 600px;
+        transition: transform 0.2s;
 
-    #pop_up {}
+        .items:hover {
+            transform: scale (1.5);
+        }
+    }
+}
+@media (min-width: 576px) {
+    .hero_wrapper {
+        padding: 0;
+    }
+}
+@media (max-width: 576px) {
+    .hero_wrapper {
+        padding: 0;
+    }
 }
